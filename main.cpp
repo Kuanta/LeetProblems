@@ -2,15 +2,11 @@
 #include "Problems/Palindrome/Palindrome.h"
 
 #include <iostream>
-#include "Problems/Palindrome/Palindrome.h"
-int main() {
-    //Roman
-    /*std::string input = "MCMXCIV";
-    RomanToInteger rti(input);
-    int solution = rti.Solve();*/
+#include "Problems/PivotIndex/PivotIndex.h"
 
-    //Palindrome
-    Palindrome palindrome;
-    palindrome.Run();
+int main() {
+
+    PivotIndex pivotIndex;
+    pivotIndex.Run();
     return 0;
 }
