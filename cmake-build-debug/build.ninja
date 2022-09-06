@@ -63,6 +63,13 @@ build CMakeFiles/LeetCode.dir/src/Problems/RomanToInteger.cpp.obj: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles\LeetCode.dir
   OBJECT_FILE_DIR = CMakeFiles\LeetCode.dir\src\Problems
 
+build CMakeFiles/LeetCode.dir/src/Problems/Palindrome/Palindrome.cpp.obj: CXX_COMPILER__LeetCode_Debug D$:/Documents/Codes/Cpp/LeetCode/src/Problems/Palindrome/Palindrome.cpp || cmake_object_order_depends_target_LeetCode
+  DEP_FILE = CMakeFiles\LeetCode.dir\src\Problems\Palindrome\Palindrome.cpp.obj.d
+  FLAGS = -std=c++11 -static-libstdc++ -g -std=gnu++14
+  INCLUDES = -isystem D:/Documents/Codes/Cpp/LeetCode/src
+  OBJECT_DIR = CMakeFiles\LeetCode.dir
+  OBJECT_FILE_DIR = CMakeFiles\LeetCode.dir\src\Problems\Palindrome
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LeetCode
@@ -71,7 +78,7 @@ build CMakeFiles/LeetCode.dir/src/Problems/RomanToInteger.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable LeetCode.exe
 
-build LeetCode.exe: CXX_EXECUTABLE_LINKER__LeetCode_Debug CMakeFiles/LeetCode.dir/main.cpp.obj CMakeFiles/LeetCode.dir/src/Problems/RomanToInteger.cpp.obj
+build LeetCode.exe: CXX_EXECUTABLE_LINKER__LeetCode_Debug CMakeFiles/LeetCode.dir/main.cpp.obj CMakeFiles/LeetCode.dir/src/Problems/RomanToInteger.cpp.obj CMakeFiles/LeetCode.dir/src/Problems/Palindrome/Palindrome.cpp.obj
   FLAGS = -std=c++11 -static-libstdc++ -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\LeetCode.dir

@@ -18,6 +18,10 @@ public:
     {
         this->input = input;
     }
+    //Run with test cases
+    virtual void Run(){}
+
+    //Solves the problem
     virtual T Solve() = 0;
 };
 #endif //PROBLEM_H
